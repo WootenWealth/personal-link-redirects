@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Nine to Noon Secrets</title>
+</head>
+<body>
+  <script>
+    var host = window.location.host;
+    var redirectURL;
+    if (host === "pics.ninetonoonsecrets.com") {
+      redirectURL = "pictures.pdf";
+    } else if (host === "refs.ninetonoonsecrets.com") {
+      redirectURL = "references.pdf";
+    } else if (host === "abcd.ninetonoonsecrets.com") {
+      redirectURL = "https://www.youtube.com/watch?v=0mTU0x8Saak";
+    } else { // Mod here
+      redirectURL = "https://www.amazon.com/Nine-Noon-Workday-Uber-Wealthy-Americans/dp/1794566856";
+    }
+    redirectURL ? window.location.href = redirectURL : null;
+  </script>
+</body>
+</html>
