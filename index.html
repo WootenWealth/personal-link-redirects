@@ -7,65 +7,38 @@
 <body>
   <script>
     var host = window.location.host;
-    var redirect;
-    if (host === "podcast.jfwooten4.com") {
-      redirect = "https://podcasters.spotify.com/pod/show/stock-market-secrets";
-    } else if (host === "youtube.jfwooten4.com") {
-      redirect = "https://www.youtube.com/@JFWooten4";
-    } else if (host === "github.jfwooten4.com") {
-      redirect = "https://github.com/JFWooten4";
-    } else if (host === "explainer.jfwooten4.com") {
-      redirect = "https://www.youtube.com/watch?v=S75IvkicWD8&list=PLWUFvhKuc_5trr9i5vEpdWZ6ZNZzHM3Nb";
-    } else if (host === "linkedin.jfwooten4.com") {
-      redirect = "https://www.linkedin.com/in/jfwooten4/";
-    } else if (host === "twitter.jfwooten4.com") {
-      redirect = "https://twitter.com/jfwooten4";
-    } else if (host === "origins.jfwooten4.com") {
-      redirect = "https://www.listennotes.com/podcasts/taking-stock/taking-stock-episode-14-the-4EdkeJohLRZ/";
-    } else if (host === "aspirations.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1546NL1xCOyKNQ3FjMevaZVhiLUq2hRLyU-GNJHlDDgs/edit";
-    } else if (host === "reddit.jfwooten4.com") {
-      redirect = "https://www.reddit.com/user/jfwooten4/";
-    } else if (host === "bitcoin.jfwooten4.com") {
-      redirect = "https://drive.google.com/drive/folders/1tyoGcZEu5upv7stiKLfYy3TgzyTeC08Y";
-    } else if (host === "dad.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1AnvtKqCrD_4XcF7h-qk-W60TiB5pJyHoHyc47r9ZGkk/edit";
-    } else if (host === "mom.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1rUsPN7VpvS4cJyDn_1Kha5lBcuh-KcaBZSYtqeyW8LM/edit";
-    } else if (host === "computers.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1nJEKUkSERMQIm3HcP2TPQGqG6DfXaQVTjd_xCg2d80U/edit";
-    } else if (host === "mining.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1mFuKiYjS9w8etI65vK0nU_egyDrDCDWzjMSFvhkAeQo/edit";
-    } else if (host === "background.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1fyAFz72vLSRXShduTagX46P0Sb5qbjeZMdbViNUywHs/edit";
-    } else if (host === "scam.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1XafKUvBo-pw4FkcPFkFw7CEDIKZPrb7isYoHlHqT29Y/edit";
-    } else if (host === "trading.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1NP3FUzMbqAo1MMkd6_r7yEvCQWjPjnNuU8h1uDC3Q4o/edit";
-    } else if (host === "career.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1LDfTWCFmX-0GfnFv2L43OLs7w0xZ4aKsoCrQM_x9REI/edit";
-    } else if (host === "subway.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1Tt3yKK4Q11i1X42enVvVO5PD3S-BxHyJRsp2oVwS-XY/edit";
-    } else if (host === "lnc.jfwooten4.com") {
-      redirect = "https://docs.google.com/document/d/1Sx_UGMkeBJBZnlSdF93sjouaUxcljOS7rPFCzVSFVps/edit";
-    } else if (host === "discord.jfwooten4.com") {
-      redirect = "https://discord.com/users/777758936820219904";
-    } else if (host === "patent.jfwooten4.com") {
-      redirect = "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20220284507";
-    } else if (host === "posts.jfwooten4.com") {
-      redirect = "https://www.linkedin.com/in/jfwooten4/recent-activity/all";
-    } else if (host === "marketing.jfwooten4.com") {
-      redirect = "https://www.business.com/cf";
-    } else if (host === "dcs.jfwooten4.com") {
-      redirect = "https://www.dotccomsecrets.com/?";
-    } else if (host === "exs.jfwooten4.com") {
-      redirect = "https://www.expertsecrets.com/?";
-    } else if (host === "tfs.jfwooten4.com") {
-      redirect = "https://www.trafficsecrets.com/?";
-    } else {
-      redirect = "https://www.wootenwealth.com";
-    }
-    redirect ? window.location.href = redirect : null;
+    var subdomain = host.split('.')[0];
+    var redirects = {
+      "podcast": "https://podcasters.spotify.com/pod/show/stock-market-secrets",
+      "youtube": "https://www.youtube.com/@JFWooten4",
+      "github": "https://github.com/JFWooten4",
+      "explainer": "https://www.youtube.com/watch?v=S75IvkicWD8&list=PLWUFvhKuc_5trr9i5vEpdWZ6ZNZzHM3Nb",
+      "linkedin": "https://www.linkedin.com/in/jfwooten4/",
+      "twitter": "https://twitter.com/jfwooten4",
+      "origins": "https://www.listennotes.com/podcasts/taking-stock/taking-stock-episode-14-the-4EdkeJohLRZ/",
+      "aspirations": "https://docs.google.com/document/d/1546NL1xCOyKNQ3FjMevaZVhiLUq2hRLyU-GNJHlDDgs/edit",
+      "reddit": "https://www.reddit.com/user/jfwooten4/",
+      "bitcoin": "https://drive.google.com/drive/folders/1tyoGcZEu5upv7stiKLfYy3TgzyTeC08Y",
+      "dad": "https://docs.google.com/document/d/1AnvtKqCrD_4XcF7h-qk-W60TiB5pJyHoHyc47r9ZGkk/edit",
+      "mom": "https://docs.google.com/document/d/1rUsPN7VpvS4cJyDn_1Kha5lBcuh-KcaBZSYtqeyW8LM/edit",
+      "computers": "https://docs.google.com/document/d/1nJEKUkSERMQIm3HcP2TPQGqG6DfXaQVTjd_xCg2d80U/edit",
+      "mining": "https://docs.google.com/document/d/1mFuKiYjS9w8etI65vK0nU_egyDrDCDWzjMSFvhkAeQo/edit",
+      "background": "https://docs.google.com/document/d/1fyAFz72vLSRXShduTagX46P0Sb5qbjeZMdbViNUywHs/edit",
+      "scam": "https://docs.google.com/document/d/1XafKUvBo-pw4FkcPFkFw7CEDIKZPrb7isYoHlHqT29Y/edit",
+      "trading": "https://docs.google.com/document/d/1NP3FUzMbqAo1MMkd6_r7yEvCQWjPjnNuU8h1uDC3Q4o/edit",
+      "career": "https://docs.google.com/document/d/1LDfTWCFmX-0GfnFv2L43OLs7w0xZ4aKsoCrQM_x9REI/edit",
+      "subway": "https://docs.google.com/document/d/1Tt3yKK4Q11i1X42enVvVO5PD3S-BxHyJRsp2oVwS-XY/edit",
+      "lnc": "https://docs.google.com/document/d/1Sx_UGMkeBJBZnlSdF93sjouaUxcljOS7rPFCzVSFVps/edit",
+      "discord": "https://discord.com/users/777758936820219904",
+      "patent": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20220284507",
+      "posts": "https://www.linkedin.com/in/jfwooten4/recent-activity/posts/",
+      "marketing": "https://www.business.com/cf",
+      "dcs": "https://www.dotcomsecrets.com/",
+      "exs": "https://www.expertsecrets.com/",
+      "tfs": "https://www.trafficsecrets.com/"
+    };
+    var redirect = redirects[subdomain] || "https://www.wootenwealth.com";
+    window.location.href = redirect;
   </script>
 </body>
 </html>
