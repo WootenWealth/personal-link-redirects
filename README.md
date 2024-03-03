@@ -21,6 +21,6 @@ Setup process here
 For all redirects
 
 
-# Bonus - Use /pages
+### Bonus: Create /pages
 
 How-to per free-book vs direct book subd
