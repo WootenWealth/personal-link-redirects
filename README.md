@@ -1,4 +1,4 @@
-[![intro](imgs/cover.png)](https://www.youtube.com/watch?v=YPw-ZcPaj1Q&list=PLWUFvhKuc_5u6VO97lS-eQuAQGj_NWoti)
+[![intro](imgs/cover.png)](https://intro.jfwooten4.com)
 
 ## 📜 A Financial System for Everyone - [Starting With Free Education](https://www.ninetonoonsecrets.com/free-book) 🌍
 
