@@ -1,16 +1,10 @@
-title: Block Transfer
-email: hello@blocktransfer.dev
-description: "Block Transfer"
-baseurl: ""
-url: "blocktransfer.com"
-github_username:  blocktransfer
+title: John Wooten
+description: "Decentralizing Capitlism 🌐"
+url: "jfwooten4.com"
+github_username:  JFWooten4
 theme: minima
 plugins:
   - jekyll-feed
 include:
-  - .well-known
-  - assets
-  - board-resolutions
-  - compliance
   - imgs
   - _headers
