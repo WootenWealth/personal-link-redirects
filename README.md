@@ -1,5 +1,7 @@
 [![intro](imgs/cover.png)](https://intro.jfwooten4.com)
 
+# [Decentralizing Capitalism](https://www.decentralizingcapitalism.com) 🌐
+
 ## 📜 A Financial System for Everyone - [Starting With Free Education](https://www.ninetonoonsecrets.com/free-book) 🌍
 
 ### Reimagining Asset Management 💡
