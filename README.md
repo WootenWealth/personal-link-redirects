@@ -2,7 +2,7 @@
 
 # [Decentralizing Capitalism](https://www.decentralizingcapitalism.com) 🌐
 
-## 📜 A Financial System for Everyone - [Starting With Free Education](https://www.ninetonoonsecrets.com/free-book) 🌍
+## 📜 A [Financial System](https://stellar.org) for Everyone - [Starting With Free Education](https://www.ninetonoonsecrets.com/free-book) 🌍
 
 ### Reimagining Asset Management 💡
 We're not just building an online platform; we're striving for a democratic shift in asset management. I'm dedicated to creating an equitable financial system for the other 7 billion citizens without access to quality investments.
@@ -32,3 +32,5 @@ Your expertise is crucial, but it's your principles that will fuel this revoluti
 
 ### The Journey Ahead 🗺
 We have a vision and the roadmap to a democratized financial future. What we need is you—your skills, your principles, and your commitment to change. Together, let's build financial systems that are by the people, for the people.
+
+![more](imgs/socials.png)
