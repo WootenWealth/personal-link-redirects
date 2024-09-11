@@ -93,7 +93,11 @@
     };
     
     var redirect = redirects[subdomain] || redirects[path] || "https://john.xlm.limo";
-    window.location.href = redirect;
+    console.log("Subdomain:", subdomain);
+    console.log("Path:", path);
+    console.log("Redirect URL:", redirect);
+    console.log("Redirects[path]:", redirects[path]);
+    // window.location.href = redirect;
   </script>
 </body>
 </html>
