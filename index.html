@@ -8,8 +8,6 @@
   <script>
     var host = window.location.host;
     var subdomain = host.split(".")[0];
-    var path = window.location.pathname.split("/")[1];
-    
     var redirects = {
       "alpha": "https://github.com/blocktransfer/erc20-deprecated",
       "aspirations": "https://docs.google.com/document/d/1546NL1xCOyKNQ3FjMevaZVhiLUq2hRLyU-GNJHlDDgs/edit",
@@ -91,13 +89,8 @@
       "yellow": "https://blocktransfer.com/.well-known/yellowpaper.pdf",
       "youtube": "https://www.youtube.com/@JFWooten4"
     };
-    
     var redirect = redirects[subdomain] || redirects[path] || "https://john.xlm.limo";
-    console.log("Subdomain:", subdomain);
-    console.log("Path:", path);
-    console.log("Redirect URL:", redirect);
-    console.log("Redirects[path]:", redirects[path]);
-    // window.location.href = redirect;
+    window.location.href = redirect;
   </script>
 </body>
 </html>
