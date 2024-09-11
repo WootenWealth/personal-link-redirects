@@ -8,6 +8,8 @@
   <script>
     var host = window.location.host;
     var subdomain = host.split(".")[0];
+    var path = window.location.pathname.split("/")[1];
+    
     var redirects = {
       "alpha": "https://github.com/blocktransfer/erc20-deprecated",
       "aspirations": "https://docs.google.com/document/d/1546NL1xCOyKNQ3FjMevaZVhiLUq2hRLyU-GNJHlDDgs/edit",
@@ -43,7 +45,7 @@
       "kit": "https://www.yourfirstfunnel.com/start-now-yff-1?aff=jfwooten4-1WzEwLDUzNTI2XQ9",
       "lead": "https://www.youtube.com/playlist?list=PLWUFvhKuc_5sWkocNPTrB0bfAeFTWYwzo",
       "leadership": "https://www.youtube.com/playlist?list=PLWUFvhKuc_5sWkocNPTrB0bfAeFTWYwzo",
-      "learn": "https://www.jfwooten4.com/resources.html",
+      "learn": "https://jfwooten4.com/resources.html",
       "linked": "https://www.linkedin.com/in/jfwooten4",
       "linkedin": "https://www.linkedin.com/in/jfwooten4",
       "lnc": "https://docs.google.com/document/d/1Sx_UGMkeBJBZnlSdF93sjouaUxcljOS7rPFCzVSFVps/edit",
@@ -72,7 +74,7 @@
       "riches": "https://secretsofsuccess.com/roundpegs?afmc=wootenwealth",
       "s7-15-23": "https://www.sec.gov/comments/s7-15-23/s71523-301019-767522.pdf",
       "securrency": "https://www.linkedin.com/posts/jfwooten4_blockchain-dtcc-projectwhitney-activity-7122584214130036736-9vKi",
-      "scam": "https://www.jfwooten4.com/static/scam/index.html",
+      "scam": "https://jfwooten4.com/static/scam/index.html",
       "sponsor": "https://github.com/sponsors/JFWooten4?frequency=recurring",
       "subway": "https://docs.google.com/document/d/1Tt3yKK4Q11i1X42enVvVO5PD3S-BxHyJRsp2oVwS-XY/edit",
       "taxes": "https://drive.google.com/drive/folders/1nZcBMnDgmXrv9DaH67SLyKeyj5Gi8IMY",
@@ -89,7 +91,8 @@
       "yellow": "https://blocktransfer.com/.well-known/yellowpaper.pdf",
       "youtube": "https://www.youtube.com/@JFWooten4"
     };
-    var redirect = redirects[subdomain] || "https://www.jfwooten4.com/info.html";
+    
+    var redirect = redirects[subdomain] || redirects[path] || "https://john.xlm.limo";
     window.location.href = redirect;
   </script>
 </body>
