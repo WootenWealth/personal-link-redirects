@@ -6,7 +6,6 @@
 </head>
 <body>
   <script>
-    var path = window.location.pathname.split("/")[1];
     var redirects = {
       "alpha": "https://github.com/blocktransfer/erc20-deprecated",
       "aspirations": "https://docs.google.com/document/d/1546NL1xCOyKNQ3FjMevaZVhiLUq2hRLyU-GNJHlDDgs/edit",
@@ -95,6 +94,7 @@
       "ts": "https://lnns.co/rswev9D3A1n",
       "exposed": "https://www.youtube.com/playlist?list=PLWUFvhKuc_5u5CR31Nr-dArLS1U_namsc"
     };
+    var path = window.location.pathname.split("/")[1];
     var redirect = redirects[path] || "https://john.xlm.limo";
     window.location.href = redirect;
   </script>
