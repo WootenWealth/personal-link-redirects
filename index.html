@@ -6,8 +6,6 @@
 </head>
 <body>
   <script>
-    var host = window.location.host;
-    var subdomain = host.split(".")[0];
     var redirects = {
       "alpha": "https://github.com/blocktransfer/erc20-deprecated",
       "aspirations": "https://docs.google.com/document/d/1546NL1xCOyKNQ3FjMevaZVhiLUq2hRLyU-GNJHlDDgs/edit",
@@ -89,6 +87,7 @@
       "yellow": "https://blocktransfer.com/.well-known/yellowpaper.pdf",
       "youtube": "https://www.youtube.com/@JFWooten4"
     };
+    var subdomain = window.location.host.split(".")[0].toLowerCase();
     var redirect = redirects[subdomain] || "https://john.xlm.limo";
     window.location.href = redirect;
   </script>
