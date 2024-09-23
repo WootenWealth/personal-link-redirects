@@ -8,8 +8,10 @@
 
 ### Forging Change: Comment Letters 📄
 
-- [SR-OCC-2024-001](https://wooten.link/occ)
-- [S7-15-23](https://wooten.link/edgar)
+#### - [SR-OCC-2024-001](https://wooten.link/occ)
+#### - [S7-15-23](https://wooten.link/edgar)
+
+---
 
 ### Reimagining Asset Management 💡
 We're not just building an online platform; we're striving for a democratic shift in asset management. I'm dedicated to creating an equitable financial system for the other 7 billion citizens without access to quality investments.
