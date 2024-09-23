@@ -4,6 +4,13 @@
 
 ## 📜 A [Financial System](https://stellar.org) for Everyone - [Starting With Free Education](https://www.ninetonoonsecrets.com/free-book) 🌍
 
+---
+
+### Forging Change: Comment Letters 📄
+
+- [SR-OCC-2024-001](https://wooten.link/occ)
+- [S7-15-23](https://wooten.link/edgar)
+
 ### Reimagining Asset Management 💡
 We're not just building an online platform; we're striving for a democratic shift in asset management. I'm dedicated to creating an equitable financial system for the other 7 billion citizens without access to quality investments.
 
@@ -15,7 +22,7 @@ Blockchain isn't a fad; it's the future. It moves the locus of trust from opaque
 
 ---
 
-## 🙌 Nurturing Independent Money Managers 🚀
+## Nurturing Independent Money Managers 🚀
 
 ### The Paradigm Shift 🔄
 We're setting the stage for independent money managers to rise and thrive in a decentralized system. It's about providing opportunities based on merit, talent, and hard work, not just institutional backing.
@@ -25,7 +32,7 @@ The decentralized nature of our system offers more personalized, efficient, and 
 
 ---
 
-## ✊ Join the Revolution 🛠
+## Join the Revolution 🛠
 
 ### Beyond Code 📚
 Your expertise is crucial, but it's your principles that will fuel this revolution. By contributing to our projects, you're not just coding; you're laying down the ethical and technological foundations of a new financial system.
