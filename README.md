@@ -10,7 +10,7 @@
 
 #### - [S7-15-23](https://wooten.link/edgar)
 #### - [SR-OCC-2024-001](https://wooten.link/occ)
-#### - [S7-27-15](https://github.com/WhyDRS/DAO-docs/tree/main/comments/S7-27-15)
+#### - [S7-27-15](https://wooten.link/TAR)
 
 ---
 
