@@ -114,7 +114,7 @@
       "mining-tmp": "https://discord.com/channels/761985725453303838/946921813143851019/1279941567515459606"
       // END PENDING BLOG POST HERE
     };
-    var path = window.location.pathname.split("")[1].toLowerCase();
+    var path = window.location.pathname.split("/")[1].toLowerCase();
     var redirect = redirects[path] || "https://john.xlm.limo";
     window.location.href = redirect;
   </script>
