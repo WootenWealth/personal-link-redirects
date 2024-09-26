@@ -43,4 +43,4 @@ Your expertise is crucial, but it's your principles that will fuel this revoluti
 ### The Journey Ahead 🗺
 We have a vision and the roadmap to a democratized financial future. What we need is you—your skills, your principles, and your commitment to change. Together, let's build financial systems that are by the people, for the people.
 
-![more](imgs/socials.png)
+[![more](imgs/socials.png)](https://youtu.be/dk3AVceraTI)
