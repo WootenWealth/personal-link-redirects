@@ -8,8 +8,8 @@
 
 ### Forging Change: Comment Letters 📄
 
-#### - [S7-15-23](https://wooten.link/edgar)
-#### - [SR-OCC-2024-001](https://wooten.link/occ)
+#### - [S7-15-23](https://wooten.link/EDGAR)
+#### - [SR-OCC-2024-001](https://wooten.link/OCC)
 #### - [S7-27-15](https://wooten.link/TAR)
 
 ---
