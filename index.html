@@ -89,7 +89,16 @@
     };
     var subdomain = window.location.host.split(".")[0].toLowerCase();
     var redirect = redirects[subdomain] || "https://john.xlm.limo";
-    window.location.href = redirect;
+    if (redirect) {
+      window.location.href = redirect;
+    } else {
+      if (window.location.host.endsWith("wooten.link")) {
+        window.location.href = "https://youtu.be/GDrj7iDUly4";
+      } else if (window.location.host.endsWith("jfwooten4.com")) {
+        window.location.href = "https://john.xlm.limo";
+      } else {
+        window.location.href = "https://deoccupywallst.com";
+    }
   </script>
 </body>
 </html>
