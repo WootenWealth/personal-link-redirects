@@ -16,7 +16,7 @@ Available for speaking engagements: [Email Us](mailto:john-speaking@wootenwealth
 
 ### 🎥 Movies I'd Like to Be In
 - [WhyDRS](https://www.whydrs.org) and exposing opaque [DTCC](https://www.whydrs.org/post/issuers-and-the-dtcc-choice-without-choice)
-- Impact of [mass transit](https://www.hustwit.com/urbanized) on social mobility
+- Impact of [mass transit](https://www.hustwit.com/urbanized) on [social mobility](https://www.youtube.com/watch?v=73YEFD89IuM)
 - [Sugar](https://amzn.to/3I6KOMX), [wheat](https://amzn.to/3OTv7MV), [vegetable oils](https://youtu.be/rQmqVVmMB3k): literal [poison](https://www.merriam-webster.com/dictionary/poison)
 
 ### Social Links
