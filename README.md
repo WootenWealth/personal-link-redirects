@@ -8,9 +8,9 @@
 
 ### Forging Change: Comment Letters 📄
 
-#### - [S7-15-23](https://wooten.link/EDGAR)
-#### - [SR-OCC-2024-001](https://wooten.link/OCC)
-#### - [S7-27-15](https://wooten.link/TAR)
+#### - [S7-15-23](https://wooten.link/EDGAR): 15 final rule citations
+#### - [SR-OCC-2024-001](https://wooten.link/OCC): SRO withdrew in defeat
+#### - [S7-27-15](https://wooten.link/TAR) (draft)
 
 ---
 
