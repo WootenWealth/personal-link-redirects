@@ -1,7 +1,5 @@
 LISTEN 👂
 
-https://www.youtube.com/playlist?list=PLEmJyJCNc6-jkNtnQ7wV1a58vivWap7j2
-
 https://www.youtube.com/playlist?list=PLEmJyJCNc6-gGlHGpw7UtJrtozoxpIcIV
 
 https://www.youtube.com/playlist?list=PLEmJyJCNc6-iVLC1HDEEogwC_fdGC6J2x
