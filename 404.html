@@ -8,6 +8,7 @@
   <script>
     var redirects = {
       "_a": null,
+      "ubuntu": "https://www.youtube.com/playlist?list=PLWUFvhKuc_5tyXSbPpLqNIk7bEW8tXELb",
       "io": "https://every.to/p/the-disappearance-of-an-internet-domain",
       "nyee": "https://discord.com/channels/1102309240145707049/1118990437684875357/1294121969884856331",
       "bank": "https://github.com/usbank/Technical-Resources/pull/1/files",
@@ -127,7 +128,7 @@
       "exposed": "https://www.youtube.com/playlist?list=PLWUFvhKuc_5u5CR31Nr-dArLS1U_namsc",
       "gnu": "https://github.com/orgs/WhyDRS/discussions/1",
       "blog": "https://www.blocktransfer.com/blog/author/wooten",
-      "free": "https://john.xlm.limo",
+      "free": "https://jfwooten4.com/info",
       "abcd": "https://www.youtube.com/watch?v=jxOiBqYtekQ&list=PLWUFvhKuc_5u5CR31Nr-dArLS1U_namsc",
       // START PENDING BLOG POST HERE
       "emoji": "https://github.com/github/.github/pull/447",
@@ -136,7 +137,7 @@
       // END PENDING BLOG POST HERE
     };
     var path = window.location.pathname.split("/")[1].toLowerCase();
-    var redirect = redirects[path] || "https://john.xlm.limo";
+    var redirect = redirects[path] || redirects["free"];
     window.location.href = redirect;
   </script>
 </body>
