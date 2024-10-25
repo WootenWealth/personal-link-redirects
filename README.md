@@ -2,7 +2,7 @@
 
 # [Decentralizing Capitalism](https://www.decentralizingcapitalism.com) 🌐
 
-## 📜 A [Financial System](https://stellar.org) for Everyone - [Starting With Free Education](https://www.ninetonoonsecrets.com/free-book) 🌍
+## 📜 A [Financial System](https://wooten.link/explainer) for Everyone - [Starting With Free Education](https://www.ninetonoonsecrets.com/free-book) 🌍
 
 ### Forging Change: Regulatory Clarity for Stellar, _inter alia_ 📄
 
