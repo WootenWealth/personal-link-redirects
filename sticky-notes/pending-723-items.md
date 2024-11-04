@@ -1,5 +1,4 @@
 
-🦞 Clawbacks: do XYZ
 💱 Trading examples: do XYZ
 ✍🏿 Multisig: do XYZ
 🫱🏻‍🫲🏼 Sponsored reserves: do XYZ
