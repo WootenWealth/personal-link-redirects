@@ -1,5 +1,4 @@
-🔁 Channel accounts: explain resolutions
-🫴🏽 Claimable balances: do XYZ
+
 🦞 Clawbacks: do XYZ
 💱 Trading examples: do XYZ
 ✍🏿 Multisig: do XYZ
